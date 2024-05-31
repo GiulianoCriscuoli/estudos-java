@@ -16,9 +16,9 @@ public class ContaTerminal {
         int numero = scanner.nextInt();
 
 
-        System.out.println("Usuário: " +  numero);
+        System.out.println("Usuário: " + numero);
 
-        System.out.println("Olá " + nome + " obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque");
+        System.out.println("Olá ".concat(nome) + " obrigado por criar uma conta em nosso banco, sua agência é ".concat(agencia) + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque");
 
     }
 }
